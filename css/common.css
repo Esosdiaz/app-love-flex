@@ -33,3 +33,9 @@
 .hidden{
 	display: none !important;
 }
+.row .projects{
+	align-items: center;
+	flex-direction: row;
+	display: flex;
+	justify-content: space-around;
+}
