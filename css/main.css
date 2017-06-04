@@ -154,6 +154,8 @@ header{
 .work-projects h5{
   	padding-top: 35px;
   	text-align: center;
+    cursor: pointer;
+
 }
 #work-projects-modal {
   	width: 100%;
@@ -190,15 +192,19 @@ header{
   	cursor: pointer;
 }
 footer{
-  	text-align: center;
   	height: 70px;
-  	background-color: #373b47;
-  	color: #fff;
-  	padding-top: 7px; 
+    background-color: #373b47;
+    color: #fff;
+    padding-top: 7px;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: column;
 }
 footer p{
-  	position:relative;
-  	top: 15px;
+  	position: relative;
+    top: 15px;
+    text-align: center;
 }
 .hidden {
   	display: none !important;
